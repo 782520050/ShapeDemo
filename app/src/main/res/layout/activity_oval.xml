@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_oval"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wjx.bhne.com.shapedemo.activitys.OvalActivity">
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/shape6"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="2"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/shape7"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="3"
+        android:textSize="20sp"
+        android:textColor="#ff0000"
+        android:background="@drawable/shape8"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="4"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/shape9"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="5"
+        android:textSize="20sp"
+        android:textColor="#ff0000"
+        android:background="@drawable/shape10"/>
+
+
+</LinearLayout>

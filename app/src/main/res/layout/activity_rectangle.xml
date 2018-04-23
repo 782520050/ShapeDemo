@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rectangle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    tools:context="wjx.bhne.com.shapedemo.activitys.RectangleActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="加了内间距的矩形"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:background="@drawable/shape"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="圆角矩形"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:background="@drawable/shape1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="弧形边矩形"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:background="@drawable/shape5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="颜色渐变的矩形"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:background="@drawable/shape2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="实线描边的矩形"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:background="@drawable/shape3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="虚线描边的矩形"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:background="@drawable/shape4"/>
+
+</LinearLayout>

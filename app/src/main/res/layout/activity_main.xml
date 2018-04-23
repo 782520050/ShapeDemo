@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="wjx.bhne.com.shapedemo.MainActivity">
+
+  <Button
+      android:id="@+id/bt_rectangle"
+      android:layout_width="match_parent"
+      android:text="shape矩形(rectangle)"
+      android:layout_weight="1"
+      android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/bt_oval"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:text="shape椭圆(oval)"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/bt_line"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:text="shape线(line)"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/bt_ring"
+        android:layout_width="match_parent"
+        android:text="shape环(ring)"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
